@@ -1,0 +1,50 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid;
+    margin: 200px;
+}
+.basic{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+   height: 20%;
+}
+.stroge{
+    height: 12%;
+    padding: 5px;
+   font-weight: 0.5rem;
+    text-align: center;
+    border-bottom: 1px solid rgb(170, 170, 164);  
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-bottom: 1px solid rgb(170, 170, 164);  
+}
+.text{
+    color: rgb(130, 128, 126);
+    font-weight: 0.6rem;
+}
+.div2{
+    height: 18%;
+    padding: 15px;
+    background-color: rgb(203, 222, 239);
+    text-align: center;
+}
+.button{
+    width: 80px;
+    border: 1px solid;
+    border-radius: 20%;
+    height: 30px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: greenyellow;
+
+}
