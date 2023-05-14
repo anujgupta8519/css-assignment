@@ -41,10 +41,10 @@
 .button{
     width: 80px;
     border: 1px solid;
-    border-radius: 20%;
+    border-radius: 10px;
     height: 30px;
     font-size: 1.2rem;
     color: white;
-    background-color: greenyellow;
+    background-color: rgb(97, 99, 93);
 
 }
