@@ -1,0 +1,45 @@
+.card{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 200px;
+    flex-direction: column;
+width: 220px;
+height: 350px;
+border: 4px solid rgba(215, 210, 210, 0.368);
+}
+.img{
+    width: 100%;
+    height: 40%;
+}
+.below{
+    margin-top: 1px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.jhon{
+    font-weight:600;
+    font-family: monospace;
+    font-size: 1.9rem;
+}
+.ceo{
+    color: rgb(173, 160, 160);
+    font-size: 0.9rem;
+}
+.harw{
+    font-weight:600;
+    font-size: 0.7rem; 
+}
+.button{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}

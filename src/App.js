@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Formet from './Components/day-2/Formet';
+//import Card1 from './Components/day-2/Card1';
+// import Card from './Components/Day-1/Card';
+//import Alert from './Components/Day-1/Alert';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Alert/> */}
+      {/* <Card/> */}
+      {/* <Card1/> */}
+      <Formet/>
     </div>
   );
 }
