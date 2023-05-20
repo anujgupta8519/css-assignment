@@ -1,5 +1,6 @@
 
 import './App.css';
+import About from './Components/Day-3/About';
 import PriceingPage from './Components/Day-3/PriceingPage';
 import Formet from './Components/day-2/Formet';
 import Resume from './Components/day-2/Resume';
@@ -15,7 +16,8 @@ function App() {
       {/* <Card1/> */}
       {/* <Formet/> */}
       {/* <Resume/> */}
-      <PriceingPage/>
+      {/* <PriceingPage/> */}
+      <About/>
     </div>
   );
 }
